@@ -37,8 +37,8 @@
 			<div class="col-md-2">
 				<div class="action_area">
 					<div class="cart">
-						<a href="product.html" class="btn">Shop</a>
-						<a href="cart.html"><span>Cart</span> <strong>1</strong></a>
+						<a href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>" class="btn">Shop</a>
+						<a href="<?php echo get_permalink( wc_get_page_id( 'cart' ) ); ?>"><span>Cart</span> <strong>1</strong></a>
 					
 					</div><!--END OF CART-->
 				</div><!--END OF ACTION AREA-->

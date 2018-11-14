@@ -257,3 +257,30 @@
 		) );
 		
 	}
+	
+	
+	
+	
+	
+	// add_action( 'cmb2_admin_init', 'news_date_field' );
+	/**
+	 * Hook in and add a demo metabox. Can only happen on the 'cmb2_admin_init' or 'cmb2_init' hook.
+	 */
+	/*function news_date_field() {
+		$prefix = 'new_date_';
+		
+		$cmb_demo = new_cmb2_box( array(
+			'id'            => $prefix . 'metabox',
+			'title'         => esc_html__( 'News Additional Info', 'cmb2' ),
+			'object_types'  => array( 'post' )
+		) );
+		
+		$cmb_demo->add_field( array(
+			'name'       => esc_html__( 'Date', 'cmb2' ),
+			'desc'       => esc_html__( 'News Date', 'cmb2' ),
+			'id'         => $prefix . 'news_date',
+			'type'       => 'text',
+			'show_on_cb' => 'yourprefix_hide_if_no_cats',
+		) );
+		
+	}*/
